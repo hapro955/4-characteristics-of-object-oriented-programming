@@ -4,6 +4,9 @@ class person{
 	public $hand;
 	public $eye;
 	public $nose;
-
+	
+	protected function eat(){
+		echo "person eat";
+	}
 }
 ?>
