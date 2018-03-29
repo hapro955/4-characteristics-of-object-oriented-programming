@@ -21,4 +21,8 @@ class adults extends person {
 		echo $this->eat();
 	}
 }
+
+class fathers extends adults{
+
+}
 ?>
