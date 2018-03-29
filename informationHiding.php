@@ -33,4 +33,12 @@ class bankAccount{
 		return $this->balance;
 	}
 }
+
+$account = new bankAccount();
+$account->email="hapro955@gmail.com";
+$account->pass="123";
+echo $account->email;
+$account->setBalance(1000000000);
+echo $account->getBalance();
+
 ?>
