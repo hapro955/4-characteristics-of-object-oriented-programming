@@ -8,11 +8,17 @@
 	}
 
 	class animals implements action, appearance{
-		publci function run(){
+		public function run(){
 			echo "animals run";
 		}
 		public function hair(){
 			echo "bad hair";
+		}
+	}
+
+	class human implements action{
+		public function run(){
+			echo "person run";
 		}
 	}
 ?>
