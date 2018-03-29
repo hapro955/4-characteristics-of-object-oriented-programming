@@ -15,19 +15,22 @@ class bankAccount{
 			   ]
 	];
 	public function authenticate(){
-	for($i = 0;$i < count($this->listAccount);$i++){
-		if(($this->listAccount[$i]['email'] == $this->email) && ($this->listAccount[$i]['pass'] == $this->pass)){
-			return true;
+		for($i = 0;$i < count($this->listAccount);$i++){
+			if(($this->listAccount[$i]['email'] == $this->email) && ($this->listAccount[$i]['pass'] == $this->pass)){
+				return true;
+			}
 		}
-	}
 	return false;
 	}
 	public function setBalance($balance){
-	if($this->authenticate() == true){
-		$this->balance = $balance; 
-	}else{
-		echo "error!";
-	}	
+		if($this->authenticate() == true){
+			$this->balance = $balance; 
+		}else{
+			echo "error!";
+		}	
+	}
+	public function getBalance(){
+		return $this->balance;
 	}
 }
 ?>
