@@ -22,5 +22,12 @@ class bankAccount{
 	}
 	return false;
 	}
+	public function setBalance($balance){
+	if($this->authenticate() == true){
+		$this->balance = $balance; 
+	}else{
+		echo "error!";
+	}	
+	}
 }
 ?>
