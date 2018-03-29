@@ -23,6 +23,9 @@ class adults extends person {
 }
 
 class fathers extends adults{
-
+	public function walk(){
+		echo "father walk";
+	}
 }
+
 ?>
