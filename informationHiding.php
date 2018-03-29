@@ -14,6 +14,13 @@ class bankAccount{
 				 'pass' => '123'
 			   ]
 	];
-
+	public function authenticate(){
+	for($i = 0;$i < count($this->listAccount);$i++){
+		if(($this->listAccount[$i]['email'] == $this->email) && ($this->listAccount[$i]['pass'] == $this->pass)){
+			return true;
+		}
+	}
+	return false;
+	}
 }
 ?>
