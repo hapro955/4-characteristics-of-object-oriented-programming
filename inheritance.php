@@ -12,5 +12,9 @@ class person{
 
 class adults extends person {
 	public $bread;
+
+	public function walk(){
+		echo "adults walk";
+	}
 }
 ?>
