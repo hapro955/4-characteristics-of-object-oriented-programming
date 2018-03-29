@@ -16,5 +16,9 @@ class adults extends person {
 	public function walk(){
 		echo "adults walk";
 	}
+
+	public function getEat(){
+		echo $this->eat();
+	}
 }
 ?>
