@@ -8,5 +8,9 @@ class xeDap extends xe{
 	public function banhXe(){
 		echo "banh xe dap";
 	}
+
+	public function gheNgoi(){
+		echo "yen xe dap";
+	}
 }
 ?>
