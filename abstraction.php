@@ -23,4 +23,8 @@ class xeMay extends xe{
 		echo "yen xe may";
 	}
 }
+
+$xedap = new xeDap();
+$xedap->banhXe();
+$xedap->gheNgoi();
 ?>
