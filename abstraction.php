@@ -13,4 +13,8 @@ class xeDap extends xe{
 		echo "yen xe dap";
 	}
 }
+
+class xeMay extends xe{
+	
+}
 ?>
