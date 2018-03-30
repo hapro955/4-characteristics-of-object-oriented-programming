@@ -15,6 +15,8 @@ class xeDap extends xe{
 }
 
 class xeMay extends xe{
-	
+	public function banhXe(){
+		echo "banh xe may";
+	}
 }
 ?>
