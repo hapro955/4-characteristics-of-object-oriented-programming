@@ -5,6 +5,8 @@ abstract class xe{
 }
 
 class xeDap extends xe{
-	
+	public function banhXe(){
+		echo "banh xe dap";
+	}
 }
 ?>
