@@ -18,5 +18,9 @@ class xeMay extends xe{
 	public function banhXe(){
 		echo "banh xe may";
 	}
+
+	public function gheNgoi(){
+		echo "yen xe may";
+	}
 }
 ?>
